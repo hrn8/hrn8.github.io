@@ -15,11 +15,10 @@ img {
 }
 
 body{
-	background-image: url('https://p1.pxfuel.com/preview/944/834/342/night-sky-dark-stars.jpg');
+	background-image: url('https://wallpapercave.com/wp/gfwPusm.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	overflow: static;
 	margin-right: auto;
 	margin-left: auto;
 	
@@ -271,7 +270,16 @@ a:visited {
   margin: left;
   }
   
+  .cat{
+	  width: 100px;
+	  height: 100px;
+	  position: relative;
+	  top: -15px;
+	  right: -120px;
+  }
+  
   .GPS{
+	  background: url("green.png") no-repeat;
 	  border-radius: 100%;
 	  width: 30px;
 	  height: 30px;
@@ -279,8 +287,13 @@ a:visited {
 	  right:-20px;
 	  margin: left;
 	   bottom: -5px;
-	  
-  }
+	}
+	
+	.GPS:hover{
+		border-color: #66afe9;
+		box-shadow: 0 0 8px rgba(0,255,0, 0.6);
+		background: url("green.png") no-repeat;
+	}
   
   .EMAIL{
 	  border-radius: 100%;
@@ -291,6 +304,12 @@ a:visited {
 	  margin: left;
 	  bottom: -5px;
   }
+  
+  .EMAIL:hover{
+		border-color: #66afe9;
+		box-shadow: 0 0 8px rgba(255, 255, 255, 255);
+		
+	}
   
   .FACEBOOK{
 	  border-radius: 100%;
@@ -303,6 +322,12 @@ a:visited {
 
   }
   
+  .FACEBOOK:hover{
+		border-color: #66afe9;
+		box-shadow: 0 0 8px rgba(48, 82, 182);
+		
+	}
+  
   .GIT{
 	  width: 30px;
 	  height: 30px; 
@@ -312,6 +337,28 @@ a:visited {
 	  bottom: -5px;
   }
   
+  .GIT:hover{
+		border-color: #66afe9;
+		box-shadow: 0 0 8px rgba(29, 189, 38);
+		
+	}
+	
+  .fever{
+	  width: 30px;
+	  height: 30px;
+	  display: block;
+	  border-radius: 0%;
+	  left: 250px;
+	  position: relative;
+	  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+      transition: transform 0.8s ease-in-out;
+	  
+  }
+  
+  .fever:hover{
+	   -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  }
  
 
 
